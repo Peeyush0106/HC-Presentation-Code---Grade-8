@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assistant side Play</title>
+</head>
+
+<body>
+    <audio src="1 - M.mp4" controls id="1"></audio>
+    <audio src="3 - M.mp4" controls id="3"></audio>
+    <audio src="5 - M.mp4" controls id="5"></audio>
+    <audio src="7 - M.mp4" controls id="7"></audio>
+    <audio src="9 - M.mp4" controls id="9"></audio>
+    <audio src="11 - M.mp4" controls id="11"></audio>
+</body>
+<script>
+    document.getElementById("1").play();
+    setTimeout(function() {
+        document.getElementById("3").play();
+    }, 9000);
+    setTimeout(function() {
+        document.getElementById("5").play();
+    }, 14000);
+    setTimeout(function() {
+        document.getElementById("7").play();
+    }, 22000);
+    setTimeout(function() {
+        document.getElementById("9").play();
+    }, 30000);
+    setTimeout(function() {
+        document.getElementById("11").play();
+    }, 36500);
+</script>
+
+</html>
